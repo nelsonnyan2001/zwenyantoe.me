@@ -176,12 +176,12 @@ a {
     flex: 0.7;
 }
 
-.left-project h2 {
+.left-project>h2 {
     flex: 0.1;
     font-family: 'Bungee';
     margin: 20px;
     text-align: center;
-    font-size: 40px;
+    font-size: 6vmin;
 }
 
 .img-holder {
@@ -221,7 +221,6 @@ a {
 }
 
 .vertical .ss {
-    flex: 0 0 100%;
     margin-bottom: 5%;
 }
 
