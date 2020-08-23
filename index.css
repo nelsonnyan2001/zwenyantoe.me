@@ -225,6 +225,10 @@ a {
     margin-bottom: 5%;
 }
 
+.small-arrow {
+    vertical-align: middle;
+}
+
 .pointing-right {
     transform: rotate(-90deg);
 }
