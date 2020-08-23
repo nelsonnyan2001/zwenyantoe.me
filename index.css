@@ -18,6 +18,10 @@ body {
     align-items: center;
 }
 
+.mobile-only {
+    display: none;
+}
+
 hr.divider {
     margin: 0 5%;
     overflow: visible;
@@ -185,11 +189,8 @@ a {
 }
 
 .third {
-    height: 40%;
-    display: flex;
-    flex: 1;
-    justify-content: center;
-    align-items: center;
+    height: initial;
+    margin: 15vh 0 20vh 0;
 }
 
 .img-holder {
@@ -325,7 +326,12 @@ a {
     }
 
     .text {
+        flex: 1.2;
         justify-content: flex-start;
+    }
+
+    .links {
+        flex: 1;
     }
 
     .links {
@@ -333,7 +339,7 @@ a {
     }
 
     .second-container {
-        height: 200%;
+        height: 220%;
     }
 
     .text>* {
@@ -359,6 +365,10 @@ a {
 
     .right-project {
         flex: 1
+    }
+
+    .mobile-only {
+        display: unset;
     }
 
     .img-holder {
