@@ -223,7 +223,7 @@ a {
 }
 
 .ss {
-    flex: 0 0 50%;
+    flex: 0 0 100%;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
