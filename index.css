@@ -184,6 +184,14 @@ a {
     font-size: 6vmin;
 }
 
+.third {
+    height: 40%;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
 .img-holder {
     position: relative;
     padding: 1%;
@@ -346,11 +354,11 @@ a {
     }
 
     .left-project {
-        flex: 0.8;
+        flex: 1
     }
 
     .right-project {
-        flex: 0.2;
+        flex: 1
     }
 
     .img-holder {
@@ -365,6 +373,10 @@ a {
     .ss {
         flex: 0 0 100%;
         margin-bottom: 20px;
+    }
+
+    .resize {
+        height: 150%;
     }
 
     .pointing-right {
