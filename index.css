@@ -3,7 +3,9 @@ html {
     scroll-behavior: smooth;
     margin: 0;
     height: 100%;
-    background-color: #ffe4c4
+    background: url(images/pattern.png) repeat;
+    background-color: #ffe4c4;
+
 }
 
 .parent {
@@ -94,6 +96,7 @@ a {
 }
 
 .text-container {
+    background-color: #ffe4c4;
     transition: color .5s;
     padding: 20px;
     border: solid 5px;
@@ -136,6 +139,10 @@ a {
     fill: #fff
 }
 
+.link:hover .link-container {
+    background-color: #000;
+}
+
 .text-container>h1 {
     margin: 0;
     font-size: 500%;
@@ -158,6 +165,7 @@ a {
 }
 
 .project-container {
+    background-color: #ffe4c4;
     display: flex;
     height: 80%;
     flex: 1;
