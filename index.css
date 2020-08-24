@@ -70,6 +70,7 @@ hr.divider:before {
 .text p {
     font-weight: 600;
     font-size: 1rem;
+    text-align: justify;
     font-family: BioRhyme
 }
 
