@@ -1,4 +1,8 @@
 User-Agent: *
 Disallow: 
 
+User-agent: Googlebot-Image
+Disallow: /images/*.png
+Disallow: /images/*.jpg
+
 Sitemap: https://zwenyantoe.me/sitemap.xml
