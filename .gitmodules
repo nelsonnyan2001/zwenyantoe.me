@@ -1,0 +1,3 @@
+[submodule "covid-tracker"]
+	path = covid-tracker
+	url = https://github.com/nelsonnyan2001/covid-tracker
