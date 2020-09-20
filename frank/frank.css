@@ -1,0 +1,48 @@
+html,
+body {
+    height: 100%;
+    margin: 0px;
+}
+
+.whole{
+    font-family: 'Cabin Sketch', cursive;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 5vw;
+}
+
+.link-c{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 20px;
+}
+
+.cover{
+    width: 20%;
+    height: auto;
+}
+
+@media (prefers-color-scheme: dark) {
+    .whole{
+        background-color: black;
+        color: white;
+    }
+    .cover{
+        filter: invert(1);
+    }
+    .day{
+        display: none;
+    }
+}
+
+
+@media (prefers-color-scheme: light) {
+    .night {
+        display: none;
+    }
+}
