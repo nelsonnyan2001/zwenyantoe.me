@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Khin Yadanar Aung",
+        "age": 21,
+        "food": "Doesn't eat anything much",
+        "location": "Mandalay",
+        "favorite": "Layla",
+        "picture": "https://graph.facebook.com/100009479640424/picture?width=600"
+    },
+    {
+        "name": "Sai Aung Sein Lin",
+        "age": 19,
+        "food": "Mala Shan Kaw",
+        "location": "Mandalay",
+        "favorite": "Jawhead",
+        "picture": "https://graph.facebook.com/100008933822238/picture?width=600"
+    },
+    {
+        "name": "Aung Zay Ya",
+        "age": 19,
+        "food": "Vitagen",
+        "location": "Mandalay",
+        "favorite": "Claude",
+        "picture": "https://graph.facebook.com/100015836222336/picture?width=600"
+    }
+]
