@@ -1,6 +1,5 @@
 User-Agent: *
 Disallow: /frank/
-Disallow: /waiting/
 
 User-agent: Googlebot-Image
 Disallow: /images/*.png
